@@ -1,0 +1,31 @@
+# conda env create|update --file environment.yml
+name: nf
+dependencies:
+- python=3.6
+- pip
+- jupyter
+- matplotlib
+- numpy==1.16.*
+- pandas==0.24.1
+- pytest
+- pytest-mock
+- scipy
+- seaborn
+- statsmodels
+- nb_conda
+- tensorflow
+- keras
+- plotly
+- bokeh
+- xlrd
+- graphviz
+# - py-xgboost
+- pip:
+  - '--editable=.'
+  - sklearn
+  - torch
+  - folium
+  - chart_studio
+
+
+prefix: /anaconda3/envs/nf

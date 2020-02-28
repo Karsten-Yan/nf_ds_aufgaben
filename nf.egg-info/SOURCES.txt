@@ -1,0 +1,8 @@
+README.md
+setup.py
+nf.egg-info/PKG-INFO
+nf.egg-info/SOURCES.txt
+nf.egg-info/dependency_links.txt
+nf.egg-info/not-zip-safe
+nf.egg-info/requires.txt
+nf.egg-info/top_level.txt
